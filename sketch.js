@@ -12,19 +12,13 @@ function preload(){
 
 function setup(){
  var canvas = createCanvas(displayWidth, displayHeight);
- //bg = MainBG;
+ bg = MainBG;
  form = new Form();
  game = new Game();
 }
 
 function draw(){
- background(255);
- /*if(gameState == 0){
-     bg = MainBG;
- }
- else {
-     bg = DiffBG;
- }*/
+ background(bg);
  if(gameState == 2){
      game.easy();
  }
