@@ -14,6 +14,7 @@ function setup(){
  var canvas = createCanvas(displayWidth, displayHeight);
  //bg = MainBG;
  form = new Form();
+ game = new Game();
 }
 
 function draw(){

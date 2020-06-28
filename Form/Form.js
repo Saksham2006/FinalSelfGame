@@ -17,8 +17,7 @@ class Form {
             this.playButton.hide();
             this.tutorialButton.hide();
             this.title.hide();
-            gameState = 1;
-            difficulty = new Difficulty();
+            gameState = 2;
         })
     }
 }
